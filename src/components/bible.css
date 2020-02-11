@@ -1,0 +1,25 @@
+
+.bible{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: orchid;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    border-width: 2px;
+    width: 90%;
+    padding: 1.5%;
+    border-style: solid;
+}
+
+.book {
+    flex: 0.9;
+    text-align: justify;
+    text-emphasis: left;
+    padding: 10px 20px;
+    border-color: plum;
+    border-width: 5px;
+    width: 90%;
+    border-style: solid;
+}
