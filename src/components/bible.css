@@ -23,3 +23,7 @@
     width: 90%;
     border-style: solid;
 }
+
+.book-search {
+    text-align: end;
+}

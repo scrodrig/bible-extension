@@ -5,8 +5,7 @@ const BIBLE_STYLE = '&style=fullyFormatted'
 const KEY_BIBLE_URL = 'fd37d8f28e95d3be8cb4fbc37e15e18e'
 
 class BibleUtils {
-    static getVerse = async function() {
-        const passage = 'John3'
+    static getVerse = async function(passage = 'Genesis1') {
         const url = `${BIBLE_URL}?passage=${passage}${BIBLE_STYLE}&key=${KEY_BIBLE_URL}`
         const response = await axios.get(url)
         const text = BibleUtils.changeColor(response.data)

@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Bible testID="bible" name="Schubert" />
+                <Bible testID="bible"/>
             </header>
         </div>
     )

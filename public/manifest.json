@@ -3,8 +3,8 @@
   "author": "scrodrig",
   "version": "1.0.1",
   "description": "Replace new tab screen with GitHub trending projects.",
-  "short_name": "React App",
-  "name": "Create React App Extension Sample",
+  "short_name": "Bible extension",
+  "name": "Biblia RVA",
   "icons": {
     "16": "favicon.ico",
     "48": "logo192.png",
